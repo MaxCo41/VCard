@@ -1,0 +1,48 @@
+body {
+  background-image: url("image/background.jpg");
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+.box {
+  width: 300px;
+  margin:auto;
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 15px;
+  margin-top: 40px;
+
+}
+.box img{
+  height: 250px;
+  padding-top: 10px;
+  margin: auto;
+  display: block;
+  border-radius: 50%;
+}
+.box h1{
+  color: white;
+}
+.box h2{
+  color: white;
+}
+.box ul{
+  margin: 0px;
+  padding: 0px;
+}
+.box li{
+  list-style-type: none;
+  display: inline-block;
+  text-align: center;
+  margin: 20px;
+
+}
+.box a {
+  color: white;
+
+}
+a:hover .fa {
+  color:grey;
+
+}
+a .fa {
+  font-size: 50px;
+}
